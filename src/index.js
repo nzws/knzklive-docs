@@ -4,6 +4,8 @@ import Docute from 'docute';
 // eslint-disable-next-line no-new
 new Docute({
   target: '#docute',
+  router: { mode: 'history' },
+  sourcePath: '/',
   versions: {
     'Beta (Latest)': {
       link: '/'
