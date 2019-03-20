@@ -5,6 +5,9 @@
     "build": "webpack --config webpack.prod.js"
   },
   "devDependencies": {
+    "@babel/core": "7.4.0",
+    "@babel/preset-env": "7.4.1",
+    "babel-loader": "8.0.5",
     "clean-webpack-plugin": "2.0.1",
     "copy-webpack-plugin": "5.0.1",
     "docute": "4.10.0",
