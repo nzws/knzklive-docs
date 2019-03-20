@@ -31,7 +31,10 @@ module.exports = {
   plugins: [
     new HtmlWebPackPlugin({ template: 'public/index.html' }),
     new VueLoaderPlugin(),
-    new CopyPlugin([{ from: 'static', to: 'static' }, { from: 'docs' }]),
+    new CopyPlugin([
+      { from: 'static', to: 'static' },
+      { from: 'docs', to: 'docs' }
+    ]),
     new WebpackBar({ profile: true, reporter: 'profile' })
   ],
   resolve: { alias: { vue$: 'vue/dist/vue.esm.js' } }
