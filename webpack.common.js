@@ -33,7 +33,8 @@ module.exports = {
     new VueLoaderPlugin(),
     new CopyPlugin([
       { from: 'static', to: 'static' },
-      { from: 'docs', to: 'docs' }
+      { from: 'docs' },
+      { from: 'docs/README.md', to: 'README.md' }
     ]),
     new WebpackBar({ profile: true, reporter: 'profile' })
   ],
