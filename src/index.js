@@ -3,6 +3,7 @@ import Docute from 'docute';
 
 // eslint-disable-next-line no-new
 new Docute({
+  target: '#docute',
   versions: {
     'Beta (Latest)': {
       link: '/'
