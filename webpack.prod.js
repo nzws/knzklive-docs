@@ -1,0 +1,18 @@
+/* eslint-disable import/no-extraneous-dependencies */
+const Merge = require('webpack-merge');
+const TerserPlugin = require('terser-webpack-plugin');
+const Common = require('./webpack.common.js');
+
+module.exports = Merge(Common, {
+  mode: 'production',
+  optimization: {
+    minimizer: [
+      new TerserPlugin({
+        cache: true,
+        parallel: true,
+        terserOptions: { output: { comments: false } }
+      })
+    ]
+  },
+  stats: 'errors-only'
+});
