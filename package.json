@@ -5,7 +5,7 @@
     "fmt": "prettier --write '**/*.js'",
     "check:fmt": "prettier --check '**/*.js'",
     "dev": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "now-build": "webpack --config webpack.prod.js"
   },
   "devDependencies": {
     "@babel/core": "7.4.0",
@@ -34,6 +34,5 @@
     "webpack-dev-server": "3.2.1",
     "webpack-merge": "4.2.1",
     "webpackbar": "3.1.5"
-  },
-  "dependencies": {}
+  }
 }
