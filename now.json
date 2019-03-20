@@ -1,7 +1,7 @@
 {
   "name": "knzklive-docs",
   "version": 2,
-  "alias": ["docs.live.knzk.me"],
+  "alias": ["knzklive-docs.knzk.me"],
   "builds": [{ "src": "package.json", "use": "@now/static-build" }],
   "regions": ["hnd1"],
   "github": { "silent": true }
