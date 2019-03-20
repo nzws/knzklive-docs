@@ -1,6 +1,7 @@
 {
   "private": true,
   "devDependencies": {
-    "docute": "4.10.0"
+    "docute": "4.10.0",
+    "prettier": "1.16.4"
   }
 }
