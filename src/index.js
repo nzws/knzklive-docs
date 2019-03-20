@@ -7,9 +7,7 @@ new Docute({
   router: { mode: 'history' },
   sourcePath: '/',
   versions: {
-    'Beta (Latest)': {
-      link: '/'
-    }
+    'Beta (Latest)': { link: '/' }
   },
   title: 'KnzkLive',
   nav: [
@@ -45,8 +43,6 @@ new Docute({
     }
   ],
   overrides: {
-    '/': {
-      language: 'Japanese'
-    }
+    '/': { language: 'Japanese' }
   }
 });
