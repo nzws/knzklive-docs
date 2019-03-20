@@ -29,9 +29,9 @@ module.exports = {
     ]
   },
   plugins: [
-    new HtmlWebPackPlugin({ title: 'KnzkLive', favicon: 'static/favicon.ico' }),
+    new HtmlWebPackPlugin({ template: 'public/index.html' }),
     new VueLoaderPlugin(),
-    new CopyPlugin([{ from: 'static', to: 'static' }]),
+    new CopyPlugin([{ from: 'static', to: 'static' }, { from: 'docs' }]),
     new WebpackBar({ profile: true, reporter: 'profile' })
   ]
 };
