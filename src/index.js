@@ -46,6 +46,10 @@ new Docute({
         {
           title: 'Comment Viewer',
           link: '/docs/streamer/comment-viewer.md'
+        },
+        {
+          title: 'Collaboration',
+          link: '/docs/streamer/collaboration.md'
         }
       ]
     },
