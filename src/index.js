@@ -49,6 +49,15 @@ new Docute({
           link: '/docs/streamer/comment-viewer.md'
         }
       ]
+    },
+    {
+      title: 'Development Guide',
+      links: [
+        {
+          title: 'Setup',
+          link: '/docs/development/setup.md'
+        }
+      ]
     }
   ],
   overrides: {
