@@ -4,6 +4,7 @@ import Docute from 'docute';
 // eslint-disable-next-line no-new
 new Docute({
   target: '#docute',
+  highlight: ['bash'],
   router: { mode: 'history' },
   sourcePath: '/',
   versions: {
