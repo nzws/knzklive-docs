@@ -5,8 +5,6 @@ import Docute from 'docute';
 new Docute({
   target: '#docute',
   highlight: ['bash'],
-  router: { mode: 'history' },
-  sourcePath: '/',
   versions: {
     'Beta (Latest)': { link: '/' }
   },
@@ -63,5 +61,8 @@ new Docute({
   ],
   overrides: {
     '/': { language: 'Japanese' }
-  }
+  },
+  footer: `
+  This website is licensed under the <a href="https://github.com/KnzkDev/knzklive-docs/blob/master/LICENSE">MIT License</a>.
+  `
 });
