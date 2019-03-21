@@ -29,11 +29,11 @@ new Docute({
       links: [
         {
           title: 'Comment Highlight',
-          link: '/docs/user-guide/comment-highlight.md'
+          link: '/docs/user/comment-highlight.md'
         },
         {
           title: 'FAQ',
-          link: '/docs/user-guide/faq.md'
+          link: '/docs/user/faq.md'
         }
       ]
     },
@@ -42,11 +42,11 @@ new Docute({
       links: [
         {
           title: 'Getting Started',
-          link: '/docs/streamer-guide/getting-started.md'
+          link: '/docs/streamer/getting-started.md'
         },
         {
           title: 'Comment Viewer',
-          link: '/docs/streamer-guide/comment-viewer.md'
+          link: '/docs/streamer/comment-viewer.md'
         }
       ]
     }
