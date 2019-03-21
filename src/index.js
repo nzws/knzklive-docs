@@ -16,6 +16,15 @@ new Docute({
   ],
   sidebar: [
     {
+      title: 'Guide',
+      links: [
+        {
+          title: 'Knzk Point',
+          link: '/docs/guide/knzk-point.md'
+        }
+      ]
+    },
+    {
       title: 'User Guide',
       links: [
         {
