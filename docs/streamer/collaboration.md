@@ -13,7 +13,7 @@
 
 ## コメント管理
 
-wip
+[モデレーションガイド](#/docs/streamer/comment-viewer.md) をお読みください。
 
 ## コラボ配信
 
