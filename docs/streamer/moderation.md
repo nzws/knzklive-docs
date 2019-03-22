@@ -4,10 +4,13 @@ KnzkLive には、**コメントの削除**、**NG ワード(自動非表示)設
 
 ## コメントの削除
 
-特定の一つのコメントを削除したい場合に使用できます。  
+特定の一つのコメントを削除したい場合に使用できます。
 削除したい投稿の投稿者のアイコンをクリックして、**投稿を削除**をクリックしてください。
 
-![Imgur](https://i.imgur.com/TzRHvvx.png)
+<ImageZoom
+  url="https://i.imgur.com/TzRHvvx.png"
+  :border="false"
+/>
 
 <Note type="warning">
 
@@ -21,7 +24,10 @@ KnzkLive には、**コメントの削除**、**NG ワード(自動非表示)設
 
 そして、非表示にしたいワードを入力して **追加** をクリックしてください。
 
-![Imgur](https://i.imgur.com/6lgPFqe.png)
+<ImageZoom
+  url="https://i.imgur.com/6lgPFqe.png"
+  :border="false"
+/>
 
 <Note type="warning">
 
@@ -35,7 +41,10 @@ NG ワード管理はコラボレータは操作できません。
 
 ブロックしたいユーザのアイコンをクリックして、**ユーザブロック**をクリックしてください。
 
-![Imgur](https://i.imgur.com/qZr4R1Z.png)
+<ImageZoom
+  url="https://i.imgur.com/qZr4R1Z.png"
+  :border="false"
+/>
 
 - **永続的に適用** にチェックを入れると、あなたの全ての配信においてこのブロック設定を適用させます (コラボレータは設定不可)
 - **視聴もブロック** にチェックを入れると、視聴も自動的に切断させます。(試験的機能)
