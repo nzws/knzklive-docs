@@ -26,7 +26,7 @@ cd KnzkLive
 
 ```bash
 yarn install # または npm install
-composer install
+composer install --optimize-autoloader
 ```
 
 そして、`support/sql/knzklive.sql` をデータベースに適用してください。
