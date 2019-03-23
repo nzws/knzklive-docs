@@ -16,7 +16,7 @@
     "@babel/preset-env": "7.4.2",
     "babel-loader": "8.0.5",
     "clean-webpack-plugin": "2.0.1",
-    "copy-webpack-plugin": "5.0.1",
+    "copy-webpack-plugin": "5.0.2",
     "css-loader": "2.1.1",
     "docute": "4.10.0",
     "eslint": "5.15.3",
