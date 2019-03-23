@@ -2024,10 +2024,10 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-docute@4.10.0:
-  version "4.10.0"
-  resolved "https://registry.yarnpkg.com/docute/-/docute-4.10.0.tgz#b320156c2f3202ce7973c899af1598f54852ebed"
-  integrity sha512-83UCeBai3RVROIzW0JZrPx/ZGT+wiInY8Son9eNHGbEnslTG4ZuYu4/Ne+G0X1LCwG2/Da4gWYL/rvETUFW9aw==
+docute@4.12.1:
+  version "4.12.1"
+  resolved "https://registry.yarnpkg.com/docute/-/docute-4.12.1.tgz#1f01409d844fcc614ac2fad074e0961d95b1aafb"
+  integrity sha512-bqWW2BWivp9Gktpo1/csag7vZx4TLv/3oiOQr+kkNLjqQzAPTmfuHZPrf6gITcGjkDihdv1WP/itA9z/LAaRNw==
   dependencies:
     isomorphic-unfetch "^3.0.0"
     jump.js "^1.0.2"
@@ -2035,11 +2035,11 @@ docute@4.10.0:
     marked "^0.5.0"
     medium-zoom "^1.0.2"
     prismjs "^1.15.0"
-    vue "^2.5.17"
+    vue "^2.6.10"
     vue-content-loader "^0.2.1"
     vue-router "^3.0.1"
     vue-router-prefetch "^1.1.1"
-    vue-template-compiler "^2.5.17"
+    vue-template-compiler "^2.6.10"
     vuex "^3.0.1"
     vuex-router-sync "^5.0.0"
 
@@ -6380,7 +6380,7 @@ vue-style-loader@^4.1.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@^2.5.17:
+vue-template-compiler@^2.6.10:
   version "2.6.10"
   resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.6.10.tgz#323b4f3495f04faa3503337a82f5d6507799c9cc"
   integrity sha512-jVZkw4/I/HT5ZMvRnhv78okGusqe0+qH2A0Em0Cp8aq78+NK9TII263CDVz2QXZsIT+yyV/gZc/j/vlwa+Epyg==
@@ -6393,7 +6393,7 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue@^2.5.17:
+vue@^2.6.10:
   version "2.6.10"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
   integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==
