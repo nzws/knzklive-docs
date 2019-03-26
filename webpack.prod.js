@@ -10,7 +10,15 @@ module.exports = Merge(Common, {
       new TerserPlugin({
         cache: true,
         parallel: true,
-        terserOptions: { output: { comments: false } }
+        extractComments: {
+          condition: /^\**!|@preserve|@license|@cc_on/i,
+          filename: file => {
+            return `${file}.LICENSE`;
+          },
+          banner: licenseFile => {
+            return `License information can be found in ${licenseFile}`;
+          }
+        }
       })
     ]
   },

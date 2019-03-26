@@ -1,6 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const Merge = require('webpack-merge');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
 const Common = require('./webpack.common.js');
 
 module.exports = Merge(Common, {
@@ -15,6 +14,5 @@ module.exports = Merge(Common, {
       }
     ]
   },
-  plugins: [new CleanWebpackPlugin()],
   devServer: { port: 3000, stats: 'errors-only' }
 });

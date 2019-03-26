@@ -1,5 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const path = require('path');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
@@ -7,28 +8,27 @@ const WebpackBar = require('webpackbar');
 
 module.exports = {
   entry: './src/index.js',
-  output: { filename: 'bundle.js', path: path.join(__dirname, 'dist') },
+  output: { filename: 'bundle.[hash].js', path: path.join(__dirname, 'dist') },
   module: {
     rules: [
       {
         test: /\.html$/,
-        use: [
-          {
-            loader: 'html-loader',
-            options: { minimize: true, removeComments: true }
-          }
-        ]
+        use: [{ loader: 'html-loader', options: { minimize: true } }]
       },
-      { test: /\.css$/, use: ['style-loader', 'css-loader'] },
-      { test: /\.vue$/, loader: 'vue-loader' },
+      {
+        test: /\.css$/,
+        use: [{ loader: 'style-loader' }, { loader: 'css-loader' }]
+      },
+      { test: /\.vue$/, use: [{ loader: 'vue-loader' }] },
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: ['babel-loader?cacheDirectory']
+        use: [{ loader: 'babel-loader', options: { cacheDirectory: true } }]
       }
     ]
   },
   plugins: [
+    new CleanWebpackPlugin(),
     new HtmlWebPackPlugin({ template: 'public/index.html' }),
     new VueLoaderPlugin(),
     new CopyPlugin([
