@@ -2024,10 +2024,10 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-docute@4.13.0:
-  version "4.13.0"
-  resolved "https://registry.yarnpkg.com/docute/-/docute-4.13.0.tgz#ed9d8f3060f08b3f00e167844addb6aa841d5013"
-  integrity sha512-kd2/dxMGqszhUzryFBWFIS1V3NtezEYi29tbFNNkfY5a8TqOdPibDbT3wsc4lY6JbTwmMYHmVWnsJG5S0SOXoQ==
+docute@4.13.1:
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/docute/-/docute-4.13.1.tgz#07718b5a976aa566d8373b68fd7ea1b7c8f56224"
+  integrity sha512-u8F121bg6WRhoh3+KkjQ/rwMEFmJQXTNTL9Z/RPaaYtHLX+94VvhzEnR19O0ZmINv9aa7Il7Kfy+jGD+uBOnXQ==
   dependencies:
     isomorphic-unfetch "^3.0.0"
     jump.js "^1.0.2"
