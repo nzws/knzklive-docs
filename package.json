@@ -12,7 +12,7 @@
     "build": "webpack --config webpack.prod.js"
   },
   "devDependencies": {
-    "@babel/core": "7.4.0",
+    "@babel/core": "7.4.3",
     "@babel/preset-env": "7.4.2",
     "babel-loader": "8.0.5",
     "clean-webpack-plugin": "2.0.1",
