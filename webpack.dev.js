@@ -4,15 +4,5 @@ const Common = require('./webpack.common.js');
 
 module.exports = Merge(Common, {
   mode: 'development',
-  module: {
-    rules: [
-      {
-        enforce: 'pre',
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: 'eslint-loader'
-      }
-    ]
-  },
   devServer: { port: 3000, stats: 'errors-only' }
 });

@@ -8,7 +8,7 @@ const WebpackBar = require('webpackbar');
 
 module.exports = {
   entry: './src/index.js',
-  output: { filename: 'bundle.[hash].js', path: path.join(__dirname, 'dist') },
+  output: { filename: 'bundle.js', path: path.join(__dirname, 'dist') },
   module: {
     rules: [
       {
@@ -19,14 +19,15 @@ module.exports = {
         test: /\.css$/,
         use: [{ loader: 'style-loader' }, { loader: 'css-loader' }]
       },
-      { test: /\.vue$/, use: [{ loader: 'vue-loader' }] },
       {
         test: /\.js$/,
         exclude: /node_modules/,
         use: [{ loader: 'babel-loader', options: { cacheDirectory: true } }]
-      }
+      },
+      { test: /\.vue$/, use: [{ loader: 'vue-loader' }] }
     ]
   },
+  resolve: { alias: { vue$: 'vue/dist/vue.esm.js' } },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebPackPlugin({ template: 'public/index.html' }),
@@ -37,6 +38,5 @@ module.exports = {
       { from: 'docs/README.md', to: 'README.md' }
     ]),
     new WebpackBar({ profile: true, reporter: 'profile' })
-  ],
-  resolve: { alias: { vue$: 'vue/dist/vue.esm.js' } }
+  ]
 };
