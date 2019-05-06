@@ -7,6 +7,11 @@
 [![PRs Welcome](https://badgen.net/badge/PRs/welcome/green)](http://makeapullrequest.com)
 [![MIT License](https://badgen.net/badge/license/MIT/blue)](LICENSE)
 
+|                                                                  Linux                                                                   |
+| :--------------------------------------------------------------------------------------------------------------------------------------: |
+|        [![CircleCI](https://circleci.com/gh/KnzkDev/knzklive-docs.svg?style=svg)](https://circleci.com/gh/KnzkDev/knzklive-docs)         |
+| [![CircleCI](https://buildstats.info/circleci/chart/KnzkDev/knzklive-docs?branch=master)](https://circleci.com/gh/KnzkDev/knzklive-docs) |
+
 ## Build Setup
 
 ```bash
