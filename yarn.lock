@@ -2126,16 +2126,17 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-docute@4.16.1:
-  version "4.16.1"
-  resolved "https://registry.yarnpkg.com/docute/-/docute-4.16.1.tgz#507b4be640251c064ea16940879a3df5937aaaa8"
-  integrity sha512-XCny15oadNXxXvBasju2o266xtpzb7EFfQd7MU+f1xksvaOFuE/iDssgH+IDCJoVQSKRVyqcxhHbsfl+rpsPCw==
+docute@4.21.0:
+  version "4.21.0"
+  resolved "https://registry.yarnpkg.com/docute/-/docute-4.21.0.tgz#18df16238eebf170ed94b03d5f511e6d748b2f5c"
+  integrity sha512-jH1te1jpZcdcGMOusjEKhwZFFbnj4f0IqQewsOAckviKf4mCuWedL3wkA1hJxCBaah37mkOShJia2IrL6JxcEQ==
   dependencies:
     jump.js "^1.0.2"
     loadjs "^3.5.4"
-    marked "^0.5.0"
+    marked "^0.6.1"
     medium-zoom "^1.0.2"
     prismjs "^1.15.0"
+    throttle-debounce "^2.1.0"
     vue "^2.6.10"
     vue-content-loader "^0.2.1"
     vue-router "^3.0.1"
@@ -4011,10 +4012,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@^0.5.0:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-0.5.2.tgz#3efdb27b1fd0ecec4f5aba362bddcd18120e5ba9"
-  integrity sha512-fdZvBa7/vSQIZCi4uuwo2N3q+7jJURpMVCcbaX0S1Mg65WZ5ilXvC67MviJAsdjqqgD+CEq4RKo5AYGgINkVAA==
+marked@^0.6.1:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.6.2.tgz#c574be8b545a8b48641456ca1dbe0e37b6dccc1a"
+  integrity sha512-LqxwVH3P/rqKX4EKGz7+c2G9r98WeM/SW34ybhgNGhUQNKtf1GmmSkJ6cDGJ/t6tiyae49qRkpyTw2B9HOrgUA==
 
 matcher@^1.0.0:
   version "1.1.1"
@@ -6116,6 +6117,11 @@ text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
+
+throttle-debounce@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/throttle-debounce/-/throttle-debounce-2.1.0.tgz#257e648f0a56bd9e54fe0f132c4ab8611df4e1d5"
+  integrity sha512-AOvyNahXQuU7NN+VVvOOX+uW6FPaWdAOdRP5HfwYxAfCzXTFKRMoIMk+n+po318+ktcChx+F1Dd91G3YHeMKyg==
 
 through2@^2.0.0:
   version "2.0.5"
