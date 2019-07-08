@@ -2167,10 +2167,10 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-docute@4.21.1:
-  version "4.21.1"
-  resolved "https://registry.yarnpkg.com/docute/-/docute-4.21.1.tgz#4f1725c8e30c29fc7f120daedd1269ca3b2f4e7a"
-  integrity sha512-nzWf82lPKPQRa345FZULIenOt+GynnrCgJp+mWr9AYVLVFwCaUhHm2eV/WTPx9aZ65PYHYQpk+1xN/mG5jkaIg==
+docute@4.21.2:
+  version "4.21.2"
+  resolved "https://registry.yarnpkg.com/docute/-/docute-4.21.2.tgz#8f2c798c14786e65dfed6fda57e8c8332d946499"
+  integrity sha512-wdPKSEHLkb51ubf73/t/rzN9ePp5Oa0KaFU/SYkYxqZ5+svpzlt2S+dz6hoyzqrT428azygRed3hbhgZlcs6wQ==
   dependencies:
     jump.js "^1.0.2"
     loadjs "^3.5.4"
