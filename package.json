@@ -18,7 +18,7 @@
     "clean-webpack-plugin": "2.0.2",
     "copy-webpack-plugin": "5.0.4",
     "css-loader": "2.1.1",
-    "docute": "4.22.0",
+    "docute": "4.23.3",
     "eslint": "5.16.0",
     "eslint-config-airbnb-base": "13.2.0",
     "eslint-config-prettier": "4.3.0",
