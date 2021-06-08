@@ -2184,14 +2184,14 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-docute@4.22.0:
-  version "4.22.0"
-  resolved "https://registry.yarnpkg.com/docute/-/docute-4.22.0.tgz#70b25e599e1cf7d20b8b4624f9b702e2364ab13e"
-  integrity sha512-SRKE5Zi6dyyOTbyfNhFjIv1I5zI89C8RprvV6JMnlhFolrS6yuCYx7zW8i2x28gboZB2d7m/ifursOcqViG6pg==
+docute@4.23.3:
+  version "4.23.3"
+  resolved "https://registry.yarnpkg.com/docute/-/docute-4.23.3.tgz#fdaa9a95a9bc6b22b862b0aef32a479c23e7367c"
+  integrity sha512-Hbd+Mv2zOAEq8bkQctX6M4WogcZqkEy0bcHXUEPzMKDncFaJSQxb9b0KeAIWHJ+qO8Gz/Mxyq5EkNFaXuhbL1Q==
   dependencies:
     jump.js "^1.0.2"
     loadjs "^3.5.4"
-    marked "^0.6.1"
+    marked "^0.7.0"
     medium-zoom "^1.0.2"
     prismjs "^1.15.0"
     throttle-debounce "^2.1.0"
@@ -4123,10 +4123,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@^0.6.1:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-0.6.2.tgz#c574be8b545a8b48641456ca1dbe0e37b6dccc1a"
-  integrity sha512-LqxwVH3P/rqKX4EKGz7+c2G9r98WeM/SW34ybhgNGhUQNKtf1GmmSkJ6cDGJ/t6tiyae49qRkpyTw2B9HOrgUA==
+marked@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.7.0.tgz#b64201f051d271b1edc10a04d1ae9b74bb8e5c0e"
+  integrity sha512-c+yYdCZJQrsRjTPhUx7VKkApw9bwDkNbHUKo1ovgcfDjb2kc8rLuRbIFyXL5WOEUwzSSKo3IXpph2K6DqB/KZg==
 
 matcher@^1.0.0:
   version "1.1.1"
